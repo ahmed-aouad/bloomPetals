@@ -1,0 +1,43 @@
+body {background-image: url(img/image11.jpg) }
+
+.Civilité {margin-top: 30px; 
+    background-color: gray; 
+    margin-right: 1200px;
+    border-radius: 0 10% 10% 0;
+    height: 30px;
+    border: solid black 1px
+
+}
+
+.Nom {margin-top: 30px; 
+    background-color: burlywood; margin-right: 1200px;
+border-radius: 0 10px 10px 0; height: 120px;
+border: solid black 1px
+}
+
+.adresse {margin-top: 30px; background-color: gray; 
+    margin-right: 1200px;
+    border-radius: 0 10px 10px 0;
+    height: 120px;
+    border: solid black 1px
+
+}
+
+.confidentialité {margin-top: 40px;
+     margin-right: 1200px; 
+     background-color: burlywood;
+     border-radius: 0 10px 10px 0;
+     height: 50px;
+     border: solid black 1px
+    }
+
+h1 {font-weight: bold;} 
+ 
+.home1 { justify-content: space-around;
+    display: flex;
+    background-color: burlywood;
+    height: 60px;
+    font-weight: bolder; 
+    font-size: 20px;
+    align-items: center}
+

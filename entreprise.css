@@ -1,0 +1,30 @@
+.photo{ 
+    display: flex;
+    flex-wrap: wrap
+    ;flex-direction: column;
+    font-weight: bold;
+}
+
+.Equipe {justify-content: center;
+display: flex;
+align-items: center;
+height: 60px;
+font-size: 30px;
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+body { background-image: url(img/image11.jpg);}
+
+p { background-color: white; border: solid 1px burlywood;
+font-weight: bold;}
+
+.home1 { justify-content: space-around;
+    display: flex;
+    background-color: burlywood;
+    height: 60px;
+    font-weight: bolder; 
+    font-size: 20px;
+    align-items: center;
+}
+h1 {background-color: white; border: solid 1px burlywood}

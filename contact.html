@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bloomPetals</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>  
+    <header>
+        <section class="home1">
+        <a href="index.html">Home</a>  <a href="entreprise.html">Entreprise</a> <a href="Réalisations.html">Réalisations</a> <a href="Contact.html">Contact</a> 
+    </section>
+
+    </header>
+
+       <h1> Contactez-Nous</h1>
+    <section class="Civilité">
+    <form>
+        <label for="civilite">Civilité :</label>
+        <select id="civilite" name="civilite">
+            <option value="Monsieur">Monsieur</option>
+            <option value="Madame">Madame</option>
+            <option value="Mademoiselle">Mademoiselle</option>
+        </select>
+    </form> 
+    </section>
+    
+ <section class="Nom">
+     <form action="bloomPetals.fr" method="post">
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required><br><br>
+    
+        <label for="prenom">Prénom :</label>
+        <input type="text" id="prenom" name="prenom" required><br><br>
+    
+        <input type="submit" value="Envoyer">
+    </form>
+ </section> 
+    <section class="adresse">
+    <form action="bloomPetals.fr" method="post">
+        
+        <label for="adresse">Adresse :</label>
+        <input type="text" id="adresse" name="adresse"><br><br>
+        
+        <label for="code_postal">Code Postal :</label>
+        <input type="text" id="code_postal" name="code_postal"><br><br>
+        
+        <label for="ville">Ville :</label>
+        <input type="text" id="ville" name="ville"><br><br>
+        
+        <input type="submit" value="Envoyer">
+    </form>
+    </section>
+
+   <section class="confidentialité">
+    <form action="bloomPetals.fr" method="post">
+        <label for="politiques_confidentialite">J'accepte les politiques de confidentialité :</label>
+        <input type="checkbox" id="politiques_confidentialite" name="politiques_confidentialite" required>
+        <br>
+        <input type="submit" value="Valider">
+    </form>
+  </section>
+    
+</body>
+</html>

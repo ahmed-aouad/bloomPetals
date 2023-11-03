@@ -1,0 +1,26 @@
+.image {
+    display: flex;
+flex-wrap: wrap;
+gap: 1rem;
+justify-content: center;
+}
+
+.image img{
+    border: 3px solid burlywood;
+    border-radius: 50%;
+    
+}
+body {background-image: url(img/bunch-tender-pink-floral-twigs.jpg);}
+h1 {font-weight: bold;
+font-family: cursive;
+display: flex;
+justify-content: center; }
+.home1 { justify-content: space-around;
+    display: flex;
+    background-color: burlywood;
+    height: 60px;
+    font-weight: bolder; 
+    font-size: 20px;
+    align-items: center;}
+
+p {font-weight: bold;}    
